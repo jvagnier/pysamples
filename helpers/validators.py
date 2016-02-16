@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from inspect import isclass
+from inspect import isclass, ismethod
 from collections import MutableMapping
 
 
-__all__ = ("isclass", "isdict", "istuple", "isstring")
+__all__ = ("isclass", "ismethod", "isdict", "istuple", "isstring")
 
 
 def validator(func):
